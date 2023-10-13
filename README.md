@@ -17,3 +17,9 @@ Para realizar las pruebas con Postman se puede importar la colección para este 
 Para iniciar el proyecto desde cero se utilizó: [**Spring Initializr**](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.1.0&packaging=jar&jvmVersion=17&groupId=org.utn.frd&artifactId=dds&name=dds&description=Backend%20DDS&packageName=org.utn.frd.dds&dependencies=mysql,web,data-jpa,data-jpa)
 
 El proyecto contiene un dockerfile que permite dockerizar la aplicación.
+
+Para crear una imagen a partir del dockerfile correr:
+docker build --platform linux/amd64 -t spring-dds .
+
+Para levantar un contenedor desde esa imagen:
+docker run -p 8080:8080 -t spring-dds
