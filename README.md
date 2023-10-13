@@ -70,3 +70,9 @@ Si todo funcionó bien, se debería ir al navegador y ver la aplicación corrien
 Pero también se podrá ver un cliente de base de datos (phpMyAdmin) para poder trabajar 
 con ella si se lo desea en:
 > http://localhost:8000/
+
+# Subir imagen a Docker Hub
+Para subir la imagen a hub.docker.com se puede seguir [este manual](https://aulasoftwarelibre.github.io/taller-de-docker/dockerfile/#compartir-imagenes)
+
+No es necesario subir la imagen del contenedor de la base de datos ni de phpmyadmin. 
+Sólo es necesaria la del proyecto Spring Boot, que contiene el back y el front end.
