@@ -18,7 +18,7 @@
 --
 -- Table structure for table `alumno_curso_personal`
 --
-CREATE DATABASE instituto_educativo_1;
+CREATE DATABASE IF NOT EXISTS instituto_educativo_1;
 
 USE instituto_educativo_1;
 
